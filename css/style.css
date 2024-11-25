@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+[type="reset"],
+[type="submit"],
+button,
+html [type="button"] {
+  outline: none;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*  */
+.banner-section{
+  padding: 50px 0px;
+}
+.banner-section  h2{
+  font-weight: 700;
+  color: #45444A;
+  font-size: 27px;
+}
+.banner-section  h4{
+  font-weight: 400;
+  color: #45444A;
+  font-size: 27px;
+}
+
+.age-btn{
+  background-color: #34B37E;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 22px;
+  width: 100%;
+  text-wrap: nowrap;
+  padding: 17px 0px;
+}
+
+/* footer-section */
+
+.footer-section{
+  padding: 30px 0px;
+}
+
+.footer-section p{
+  font-size: 13px;
+  color: #737373;
+}
+
+.footer-section a{
+  font-size: 14px;
+  text-decoration: underline;
+  color:black;
+  margin-right: 9px;
+}
+.footer-section a:hover{
+  text-decoration: none;
+}
+
+/*  */
+
+@media only screen and (max-width: 767px){
+  /*  */
+.banner-section{
+  padding: 25px 0px;
+}
+.banner-section  h2{
+  font-weight: 600;
+  font-size: 24px;
+}
+
+
+
+
+/* footer-section */
+
+.footer-section{
+  padding: 0px 10px;
+}
+
+.footer-section p{
+  font-size: 13px;
+  color: #737373;
+}
+
+.footer-section a{
+  font-size: 14px;
+  text-decoration: underline;
+  color:black;
+  margin-right: 9px;
+}
+.footer-section a:hover{
+  text-decoration: none;
+}
+}
